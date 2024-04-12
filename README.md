@@ -60,7 +60,7 @@ Here, require('./lib/handler') imports the handler.js file located in the lib di
    Modify `server.js` to import the `handler.js` module and use it to handle incoming requests.
 
 4. **Test Implementation**:
-   Ensure data is processed correctly and stored in the JSON file. Use tools like Thunder Client or Postman to send various types of requests (GET, POST, PUT, DELETE) to your server and verify that the CRUD operations work as intended.
+   Ensure data is processed correctly and stored in the JSON file. Use tools like Thunder Client or Postman to send various types of requests (GET, POST, PUT, DELETE) to your server and verify that the operations work as intended.
 
 Feel free to ask for clarification or assistance if needed!
 
