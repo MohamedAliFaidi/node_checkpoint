@@ -47,7 +47,13 @@ Here, require('./lib/handler') imports the handler.js file located in the lib di
 ## Tasks for the Student:
 
 1. **Create Project Structure**:
-   Create the project structure with the directory `lib` and the files `handler.js` and `server.js`. Provide brief descriptions for each file.
+   - Create the project structure with the following files and directories:
+     - `lib`: Directory containing server logic, where the `handler.js` file should be located.
+     - `server.js`: File to set up an HTTP server.
+   - In `server.js`, include the following:
+     - Import necessary modules (e.g., `http`, `fs`).
+     - Set up an HTTP server.
+     - Define routes for handling requests.
 
 2. **Implement Data Handling**:
    In `handler.js`, handle HTTP requests sent from the form submission. Extract form data and implement CRUD (Create, Read, Update, Delete) operations on a JSON file. Here's how you can approach each operation:
